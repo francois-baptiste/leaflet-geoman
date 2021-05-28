@@ -2060,35 +2060,11 @@
                 }
             },
             routes: [{
-                path: "/leaflet-geoman/geojson-editor",
+                path: "/leaflet-geoman",
                 component: function() {
                     return Object(k.m)(Promise.all([n.e(10), n.e(3)]).then(n.bind(null, 594)))
                 },
                 name: "geojson-editor"
-            }, {
-                path: "/leaflet-geoman/leaflet-geoman",
-                component: function() {
-                    return Object(k.m)(Promise.all([n.e(0), n.e(5)]).then(n.bind(null, 595)))
-                },
-                name: "leaflet-geoman"
-            }, {
-                path: "/leaflet-geoman/leaflet-geoman-pro",
-                component: function() {
-                    return Object(k.m)(Promise.all([n.e(0), n.e(6)]).then(n.bind(null, 596)))
-                },
-                name: "leaflet-geoman-pro"
-            }, {
-                path: "/leaflet-geoman/legal",
-                component: function() {
-                    return Object(k.m)(n.e(7).then(n.bind(null, 597)))
-                },
-                name: "legal"
-            }, {
-                path: "/leaflet-geoman/",
-                component: function() {
-                    return Object(k.m)(Promise.all([n.e(0), n.e(4)]).then(n.bind(null, 598)))
-                },
-                name: "index"
             }],
             fallback: !1
         };
@@ -2501,83 +2477,7 @@
               , n = e._self._c || t;
             return n("header", {
                 staticClass: "header"
-            }, [n("nav", {
-                staticClass: "navbar is-fixed-top",
-                class: {
-                    "menu-active": e.showMenu
-                },
-                attrs: {
-                    role: "navigation",
-                    "aria-label": "main navigation"
-                }
-            }, [n("div", {
-                staticClass: "navbar-brand"
-            }, [n("nuxt-link", {
-                staticClass: "navbar-item logo",
-                attrs: {
-                    to: "/",
-                    exact: ""
-                }
-            }, [n("img", {
-                attrs: {
-                    alt: "Geoman Logo",
-                    src: "/leaflet-geoman/img/icons/geoman_logo.svg"
-                }
-            }), e._v(" "), n("span", {
-                staticClass: "brand-name"
-            }, [e._v("Geoman.io")])]), e._v(" "), n("a", {
-                staticClass: "navbar-burger",
-                class: {
-                    "is-active": e.showMenu
-                },
-                attrs: {
-                    role: "button",
-                    "aria-label": "menu",
-                    "aria-expanded": "false"
-                },
-                on: {
-                    click: function(t) {
-                        e.showMenu = !e.showMenu
-                    }
-                }
-            }, [n("span", {
-                attrs: {
-                    "aria-hidden": "true"
-                }
-            }), e._v(" "), n("span", {
-                attrs: {
-                    "aria-hidden": "true"
-                }
-            }), e._v(" "), n("span", {
-                attrs: {
-                    "aria-hidden": "true"
-                }
-            })])], 1), e._v(" "), n("div", {
-                staticClass: "navbar-menu",
-                class: {
-                    "is-active": e.showMenu
-                }
-            }, [n("div", {
-                staticClass: "navbar-start"
-            }, [n("nuxt-link", {
-                staticClass: "navbar-item",
-                attrs: {
-                    to: "/geojson-editor",
-                    exact: ""
-                }
-            }, [e._v("Editor")]), e._v(" "), n("nuxt-link", {
-                staticClass: "navbar-item",
-                attrs: {
-                    to: "/leaflet-geoman",
-                    exact: ""
-                }
-            }, [e._v("Leaflet-Geoman")]), e._v(" "), n("nuxt-link", {
-                staticClass: "navbar-item",
-                attrs: {
-                    to: "/leaflet-geoman-pro",
-                    exact: ""
-                }
-            }, [e._v("Leaflet-Geoman Pro")])], 1)])])])
+            }, [])
         }
         ), [], !1, null, "0293d739", null).exports)
           , M = {
@@ -3457,9 +3357,6 @@
                                         rel: "icon",
                                         type: "image/x-icon",
                                         href: "/img/icons/favicon.ico?v=2"
-                                    }, {
-                                        rel: "preconnect",
-                                        href: "https://www.google-analytics.com"
                                     }],
                                     htmlAttrs: {
                                         class: "has-navbar-fixed-top",
